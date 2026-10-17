@@ -1,0 +1,11 @@
+{
+  "seq_length": 40,
+  "vocab_size": 61,
+  "model_file": "text_generator.keras",
+  "embedding_dim": 64,
+  "lstm_units": 128,
+  "final_loss": 1.3461,
+  "final_accuracy": 0.5798,
+  "epochs_trained": 18,
+  "corpus": "TinyShakespeare (first 120k chars)"
+}

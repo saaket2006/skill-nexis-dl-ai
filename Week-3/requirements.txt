@@ -1,0 +1,17 @@
+# Week 3 — RNNs, LSTMs, Autoencoders, GANs, and Generative Text Models
+# Core deep learning framework
+tensorflow>=2.15.0
+keras>=3.0.0
+
+# Scientific computing and visualizations
+numpy>=1.24.0
+matplotlib>=3.7.0
+pillow>=9.5.0
+
+# Interactive web application
+streamlit>=1.30.0
+
+# Testing and notebook execution
+pytest>=7.4.0
+nbformat>=5.9.0
+nbconvert>=7.10.0
