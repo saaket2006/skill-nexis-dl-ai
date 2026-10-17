@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Week 2 large files and datasets
+Week-2/data/
+Week-2/models/*.keras
+Week-2/models/*.h5

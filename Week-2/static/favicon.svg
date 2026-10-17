@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="veinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#10b981" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <!-- Background circular badge for tab contrast in both dark and light browser themes -->
+  <circle cx="32" cy="32" r="30" fill="#0f172a" stroke="#10b981" stroke-width="2" />
+  <!-- Botanical Leaf Shape -->
+  <path d="M32 10 C46 16, 54 28, 52 44 C42 54, 28 54, 18 46 C12 36, 16 20, 32 10 Z" 
+        fill="url(#leafGrad)" filter="url(#glow)" />
+  <!-- Central Diagnostic Stem & Veins -->
+  <path d="M22 47 C28 40, 34 30, 42 18" stroke="url(#veinGrad)" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M30 36 C36 34, 42 35, 46 38" stroke="url(#veinGrad)" stroke-width="2" stroke-linecap="round" fill="none" />
+  <path d="M26 42 C28 44, 34 46, 38 45" stroke="url(#veinGrad)" stroke-width="2" stroke-linecap="round" fill="none" />
+  <path d="M35 28 C38 24, 43 23, 47 24" stroke="url(#veinGrad)" stroke-width="2" stroke-linecap="round" fill="none" />
+  <!-- Diagnostic Sparkle / AI Node -->
+  <circle cx="43" cy="17" r="3" fill="#ffffff" />
+</svg>
