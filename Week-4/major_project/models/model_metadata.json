@@ -1,0 +1,21 @@
+{
+  "model_name": "MobileNetV2_DocumentLayoutClassifier",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "preprocessing": "layers.Rescaling(scale=1.0/127.5, offset=-1.0)",
+  "expected_input_range": "[0, 255] float32",
+  "mobilenet_internal_range": "[-1.0, 1.0]",
+  "categories": [
+    "form",
+    "invoice",
+    "letter",
+    "receipt",
+    "report"
+  ],
+  "val_accuracy": 1.0,
+  "val_loss": 1.9292207070975564e-05,
+  "epochs_trained": 12
+}

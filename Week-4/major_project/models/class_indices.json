@@ -1,0 +1,7 @@
+{
+  "form": 0,
+  "invoice": 1,
+  "letter": 2,
+  "receipt": 3,
+  "report": 4
+}

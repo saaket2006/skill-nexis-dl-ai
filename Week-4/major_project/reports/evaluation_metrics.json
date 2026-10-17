@@ -1,0 +1,21 @@
+{
+  "test_loss": 0.0,
+  "test_accuracy": 1.0,
+  "macro_avg_f1": 1.0,
+  "weighted_avg_f1": 1.0,
+  "roc_auc_one_vs_rest": {
+    "form": 1.0,
+    "invoice": 1.0,
+    "letter": 1.0,
+    "receipt": 1.0,
+    "report": 1.0
+  },
+  "sample_count": 26,
+  "class_names": [
+    "form",
+    "invoice",
+    "letter",
+    "receipt",
+    "report"
+  ]
+}
